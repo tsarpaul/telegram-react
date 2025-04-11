@@ -6,17 +6,17 @@
  */
 
 .settings-filter {
-    padding: 3px 4px;
-    width: 100%;
-    height: 100%;
+  padding: 3px 4px;
+  width: 100%;
+  height: 100%;
 }
 
 .settings-filter-subtitle {
-    color: var(--text-secondary);
-    margin-top: 1px;
-    font-size: 14px;
-    line-height: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  color: var(--text-secondary);
+  margin-top: 1px;
+  font-size: 14px;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

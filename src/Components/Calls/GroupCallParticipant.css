@@ -6,103 +6,102 @@
  */
 
 .group-call-participant {
-    height: 52px;
-    padding: 0 12px;
-    user-select: none;
-    cursor: pointer;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  height: 52px;
+  padding: 0 12px;
+  user-select: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .group-call-participant .user-tile {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .group-call-participant:hover {
-    background: var(--group-call-participants-item-hover);
+  background: var(--group-call-participants-item-hover);
 }
 
 .group-call-participant-content {
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
-    margin: 0 12px;
-    overflow: hidden;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0 12px;
+  overflow: hidden;
 }
 
 .group-call-participant-content-title {
-    word-wrap: break-word;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: var(--group-call-text-primary);
+  word-wrap: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--group-call-text-primary);
 }
 
 .group-call-participant-content-subtitle {
-    font-size: 14px;
-    line-height: 19px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  font-size: 14px;
+  line-height: 19px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .group-call-participant-mic {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
 
 .participant-listening {
-    color: var(--group-call-status-listening)
+  color: var(--group-call-status-listening);
 }
 
 .participant-speaking {
-    color: var(--group-call-status-speaking);
+  color: var(--group-call-status-speaking);
 }
 
 .participant-muted-by-admin {
-    color: var(--group-call-status-muted-by-admin);
+  color: var(--group-call-status-muted-by-admin);
 }
 
 .group-call-participant-menu-root {
-    --group-call-menu: #292D33;
-    --group-call-text-primary: #ffffff;
-    --group-call-menu-item-hover: #343940;
+  --group-call-menu: #292d33;
+  --group-call-text-primary: #ffffff;
+  --group-call-menu-item-hover: #343940;
 
-    color: var(--group-call-text-primary);
-    background: var(--group-call-menu);
-    border-radius: 3px;
+  color: var(--group-call-text-primary);
+  background: var(--group-call-menu);
+  border-radius: 3px;
 }
 
 .group-call-participant-menu-item {
-
 }
 
 .group-call-participant-menu-item.group-call-participant-menu-item-focus-visible {
-    background: var(--group-call-menu-item-hover);
+  background: var(--group-call-menu-item-hover);
 }
 
 .group-call-participant-menu-item:hover {
-    background: var(--group-call-menu-item-hover);
- }
+  background: var(--group-call-menu-item-hover);
+}
 
 .group-call-participant-menu-item-ripple-child {
-    color: white;
+  color: white;
 }
 
 @keyframes ripple-enter {
-    0% {
-        transform: scale(0);
-        opacity: 0;
-    }
-    100% {
-          transform: scale(1);
-          opacity: 0.1;
-      }
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.1;
+  }
 }
 
 .group-call-participant-menu-item-ripple-visible {
-    opacity: 0.1;
-    animation: ripple-enter 550ms ease-in-out;
+  opacity: 0.1;
+  animation: ripple-enter 550ms ease-in-out;
 }

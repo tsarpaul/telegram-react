@@ -6,10 +6,10 @@
  */
 
 .filter-chat-text {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .filter-text-subtle-icon {
-    color: var(--header-subtle-color);
+  color: var(--header-subtle-color);
 }

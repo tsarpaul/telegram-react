@@ -6,10 +6,10 @@
  */
 
 .report-chat-dialog-content {
-    min-width: 300px;
-    padding: 0 8px;
+  min-width: 300px;
+  padding: 0 8px;
 }
 
 .report-chat-dialog-item {
-    border-radius: 10px;
+  border-radius: 10px;
 }

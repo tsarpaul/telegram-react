@@ -6,13 +6,13 @@
  */
 
 .create-filter-title {
-    padding: 12px 8px 18px;
+  padding: 12px 8px 18px;
 }
 
 .create-filter-add-chats {
-    color: var(--color-accent-main)
+  color: var(--color-accent-main);
 }
 
 .create-filter-remove-chats {
-    color: var(--error);
+  color: var(--error);
 }

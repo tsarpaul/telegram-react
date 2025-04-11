@@ -6,46 +6,52 @@
  */
 
 .pinned-message-border {
-    position: relative;
-    height: 32px;
-    width: 2px;
-    padding: 6px 0 6px 6px;
-    overflow: hidden;
+  position: relative;
+  height: 32px;
+  width: 2px;
+  padding: 6px 0 6px 6px;
+  overflow: hidden;
 }
 
 .pinned-message-border-wrapper-1 {
-    height: 32px;
-    width: 2px;
-    border-radius: 1px;
-    background: var(--color-accent-main);
+  height: 32px;
+  width: 2px;
+  border-radius: 1px;
+  background: var(--color-accent-main);
 }
 
 .pinned-message-border-mask {
-    mask-image: linear-gradient(to bottom, transparent 0, black 6px, black 38px, transparent 44px);
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    black 6px,
+    black 38px,
+    transparent 44px
+  );
 }
 
 .pinned-message-border-wrapper {
-    color: var(--color-accent-main);
-    background: var(--color-accent-main88);
-    position: relative;
-    will-change: transform;
-    transition: transform 0.25s ease-in-out;
+  color: var(--color-accent-main);
+  background: var(--color-accent-main88);
+  position: relative;
+  will-change: transform;
+  transition: transform 0.25s ease-in-out;
 }
 
 .pinned-message-border-bars {
-    stroke: currentColor;
-    stroke-width: 2px;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+  stroke: currentColor;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .pinned-message-border-mark {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 2px;
-    background: currentColor;
-    border-radius: 1px;
-    will-change: transform;
-    transition: transform 0.25s ease-in-out;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  background: currentColor;
+  border-radius: 1px;
+  will-change: transform;
+  transition: transform 0.25s ease-in-out;
 }

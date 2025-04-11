@@ -6,19 +6,19 @@
  */
 
 .footer-command .inputbox-bubble {
-    margin: 0;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
+  margin: 0;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 }
 
 .footer-command .inputbox-bubble::after {
-    display: none;
+  display: none;
 }
 
 .footer-command-button {
-    margin: 10px;
-    min-width: 100px;
+  margin: 10px;
+  min-width: 100px;
 }

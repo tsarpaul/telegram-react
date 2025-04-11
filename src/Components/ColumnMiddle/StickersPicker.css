@@ -6,19 +6,19 @@
  */
 
 .stickers-picker {
-    width: 338px;
-    height: 358px;
-    overflow-x: hidden;
-    background: transparent;
-    display: flex;
-    flex-direction: column;
+  width: 338px;
+  height: 358px;
+  overflow-x: hidden;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
 }
 
 .stickers-picker-scroll {
-    background: transparent;
-    padding: 0 6px 6px;
-    height: 356px;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    transform: translateZ(0);
+  background: transparent;
+  padding: 0 6px 6px;
+  height: 356px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  transform: translateZ(0);
 }

@@ -6,23 +6,23 @@
  */
 
 .animated-item {
-    position: relative;
+  position: relative;
 }
 
 .animated-item-placeholder {
-    color: transparent;
+  color: transparent;
 }
 
 .animated-item-wrapper {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    will-change: transform;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
 }
 
 .animated-item-1,
 .animated-item-2 {
-    will-change: opacity;
+  will-change: opacity;
 }

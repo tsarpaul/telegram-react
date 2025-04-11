@@ -6,10 +6,10 @@
  */
 
 .user-content {
-    font-size: 14px;
-    line-height: normal;
+  font-size: 14px;
+  line-height: normal;
 }
 
 .user-status-accent {
-    color: var(--color-accent-dark);
+  color: var(--color-accent-dark);
 }

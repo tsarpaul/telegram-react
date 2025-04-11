@@ -6,31 +6,31 @@
  */
 
 .group-call-participants {
-    overflow: hidden;
-    min-height: 50px;
-    display: flex;
-    flex-direction: column;
-    color: var(--group-call-text-secondary);
-    background: var(--group-call-participants-panel);
-    border-radius: 5px;
+  overflow: hidden;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  color: var(--group-call-text-secondary);
+  background: var(--group-call-participants-panel);
+  border-radius: 5px;
 }
 
 .group-call-participants-invite {
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-    user-select: none;
-    padding: 0 17px;
-    font-size: 14px;
-    line-height: normal;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  padding: 0 17px;
+  font-size: 14px;
+  line-height: normal;
 }
 
 .group-call-participants-invite:hover {
-    background: var(--group-call-participants-item-hover);
+  background: var(--group-call-participants-item-hover);
 }
 
 .group-call-participants-invite-text {
-    margin-left: 22px;
+  margin-left: 22px;
 }

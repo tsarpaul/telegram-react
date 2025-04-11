@@ -5,32 +5,32 @@
  * LICENSE file in the root directory of this source tree.
  */
 .poll-option-results-caption {
-    position: sticky;
-    top: 0;
-    padding: 12px;
-    color: var(--text-secondary);
-    background: var(--background-paper);
-    display: flex;
-    flex-direction: row;
-    z-index: 2;
-    font-size: 14px;
-    line-height: normal;
+  position: sticky;
+  top: 0;
+  padding: 12px;
+  color: var(--text-secondary);
+  background: var(--background-paper);
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+  font-size: 14px;
+  line-height: normal;
 }
 
 .poll-option-results-answer {
-    flex-grow: 1;
-    flex-shrink: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .poll-option-results-count {
-    margin-left: 9px;
-    flex-grow: 0;
-    flex-shrink: 0;
+  margin-left: 9px;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 .poll-option-results-button {
-    border-radius: 0;
-    padding: 12px 8px;
-    margin: 0 -8px;
-    width: calc(100% + 16px);
+  border-radius: 0;
+  padding: 12px 8px;
+  margin: 0 -8px;
+  width: calc(100% + 16px);
 }

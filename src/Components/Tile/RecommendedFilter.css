@@ -6,11 +6,11 @@
  */
 
 .recommended-filter-add {
-    color: white;
-    border-radius: 15px;
-    text-transform: none;
-    padding: 5px 12px 6px;
-    font-size: 14px;
-    line-height: normal;
-    min-width: 0;
+  color: white;
+  border-radius: 15px;
+  text-transform: none;
+  padding: 5px 12px 6px;
+  font-size: 14px;
+  line-height: normal;
+  min-width: 0;
 }

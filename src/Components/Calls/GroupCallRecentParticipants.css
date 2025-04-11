@@ -6,20 +6,20 @@
  */
 
 .group-call-recent-participants {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: auto;
-    bottom: auto;
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: auto;
+  bottom: auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
 }
 
 .group-call-recent-participants .user-tile {
-    border: 2px solid var(--panel-background);
-    margin-left: -16px;
+  border: 2px solid var(--panel-background);
+  margin-left: -16px;
 }

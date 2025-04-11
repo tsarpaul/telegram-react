@@ -6,11 +6,11 @@
  */
 
 .user-title {
-    word-wrap: break-word;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    flex-grow: 1;
-    align-items: center;
-    color: var(--dialog-color);
+  word-wrap: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-grow: 1;
+  align-items: center;
+  color: var(--dialog-color);
 }

@@ -6,24 +6,24 @@
  */
 
 .gifs-picker {
-    width: 338px;
-    height: 358px;
-    background: transparent;
-    display: flex;
-    flex-direction: column;
+  width: 338px;
+  height: 358px;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
 }
 
 .gifs-picker-scroll {
-    background: transparent;
-    padding: 6px;
-    height: 356px;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    transform: translateZ(0);
+  background: transparent;
+  padding: 6px;
+  height: 356px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  transform: translateZ(0);
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
 }

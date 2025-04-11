@@ -6,19 +6,17 @@
  */
 
 .shared-document {
-    position: relative;
-    background: transparent;
-    padding: 10px 12px;
+  position: relative;
+  background: transparent;
+  padding: 10px 12px;
 }
 
 .shared-document .document {
-    max-width: unset;
-    min-width: unset;
-    margin: 0;
+  max-width: unset;
+  min-width: unset;
+  margin: 0;
 }
 
 .shared-document .audio-content {
-    min-width: unset;
+  min-width: unset;
 }
-
-

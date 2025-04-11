@@ -6,24 +6,27 @@
  */
 
 .record-timer {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .record-timer-icon {
-    width: 10px;
-    height: 10px;
-    background: red;
-    border-radius: 50%;
-    margin: 0 18px;
-    animation: blinker .5s cubic-bezier(.5, 0, 1, 1) infinite alternate;
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 50%;
+  margin: 0 18px;
+  animation: blinker .5s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
 }
 
 .Blink {
-
 }
 
 @keyframes blinker {
-    from { opacity: 1; }
-    to { opacity: 0; }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }

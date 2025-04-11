@@ -6,36 +6,36 @@
  */
 
 .group-call-join-panel {
-    position: relative;
-    height: 60px;
-    background: var(--panel-background);
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    padding: 0 12px;
-    cursor: pointer;
+  position: relative;
+  height: 60px;
+  background: var(--panel-background);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  cursor: pointer;
 }
 
 .group-call-join-panel-content {
-    flex: 1 1 auto;
-    margin-left: 12px;
+  flex: 1 1 auto;
+  margin-left: 12px;
 }
 
 .group-call-join-panel-title {
-    color: var(--dialog-color);
+  color: var(--dialog-color);
 }
 
 .group-call-join-panel-subtitle {
-    font-size: 14px;
-    line-height: 19px;
-    color: var(--header-subtle-color);
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    user-select: text;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--header-subtle-color);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  user-select: text;
 }
 
 .group-call-join-panel-button {
-    padding: 8px 16px 7px;
-    color: white;
+  padding: 8px 16px 7px;
+  color: white;
 }

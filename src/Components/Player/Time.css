@@ -6,8 +6,8 @@
  */
 
 .header-player-time {
-    background: transparent;
-    cursor: pointer;
-    user-select: none;
-    padding: 4px 12px;
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+  padding: 4px 12px;
 }

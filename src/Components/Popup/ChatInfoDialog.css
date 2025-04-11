@@ -6,19 +6,19 @@
  */
 
 .chat-info-dialog-content {
-    width: 336px;
+  width: 336px;
 }
 
 .chat-info-dialog-root {
-    align-items: start;
+  align-items: start;
 }
 
 .chat-info-dialog-container {
-    color: var(--text-primary);
-    z-index: var(--z-index-modal);
+  color: var(--text-primary);
+  z-index: var(--z-index-modal);
 }
 
 .chat-info-dialog-paper {
-    width: 336px;
-    align-self: flex-start;
+  width: 336px;
+  align-self: flex-start;
 }

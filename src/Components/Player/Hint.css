@@ -6,14 +6,18 @@
  */
 
 .player-hint {
-    color: white;
+  color: white;
 }
 
 @keyframes player-hint-animation {
-    0% { opacity: 1; }
-    100% { opacity: 0; }
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .player-hint-animated {
-    animation: 1s ease-out 1s both player-hint-animation;
+  animation: 1s ease-out 1s both player-hint-animation;
 }

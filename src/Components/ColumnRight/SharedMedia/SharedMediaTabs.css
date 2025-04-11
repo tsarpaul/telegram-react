@@ -6,34 +6,34 @@
  */
 
 .tabs.shared-media-tabs {
-    position: sticky;
-    top: 0;
-    background: var(--panel-background);
-    /*border-bottom: 1px solid var(--border);*/
-    z-index: 2;
-    overflow: hidden;
+  position: sticky;
+  top: 0;
+  background: var(--panel-background);
+  /*border-bottom: 1px solid var(--border);*/
+  z-index: 2;
+  overflow: hidden;
 }
 
 .chat-info-dialog-paper .shared-media-tabs {
-    background: var(--background-paper);
+  background: var(--background-paper);
 }
 
 .shared-media-tabs-container {
-    justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .shared-media-tab {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 .filter span {
-    /*margin: 0 19px;*/
+  /*margin: 0 19px;*/
 }
 
 .tabs-bottom-border {
-    position: absolute;
-    top: 43px;
-    height: 1px;
-    width: 100%;
-    background: var(--border);
+  position: absolute;
+  top: 43px;
+  height: 1px;
+  width: 100%;
+  background: var(--border);
 }

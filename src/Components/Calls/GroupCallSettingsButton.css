@@ -6,30 +6,30 @@
  */
 
 .group-call-settings-button {
-    border-radius: 50%;
-    background: var(--group-call-button-settings);
-    width: 44px;
-    height: 44px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.15s linear;
-    will-change: background-color;
+  border-radius: 50%;
+  background: var(--group-call-button-settings);
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.15s linear;
+  will-change: background-color;
 }
 
 .group-call-muted-by-admin .group-call-settings-button {
-    background: var(--group-call-button-settings-muted-by-admin);
+  background: var(--group-call-button-settings-muted-by-admin);
 }
 
 .group-call-muted .group-call-settings-button {
-    background: var(--group-call-button-settings-muted);
+  background: var(--group-call-button-settings-muted);
 }
 
 .group-call-unmuted .group-call-settings-button {
-    background: var(--group-call-button-settings-unmuted);
+  background: var(--group-call-button-settings-unmuted);
 }
 
 .group-call-connecting .group-call-settings-button {
-    background: var(--group-call-button-settings-connecting);
+  background: var(--group-call-button-settings-connecting);
 }

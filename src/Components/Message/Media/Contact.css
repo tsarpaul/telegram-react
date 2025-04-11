@@ -6,35 +6,35 @@
  */
 
 .contact {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .media-title {
-    margin-top: 7px;
+  margin-top: 7px;
 }
 
 .contact-tile {
-    margin-right: 9px;
+  margin-right: 9px;
 }
 
 .contact-name {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 .contact-phone {
-    margin-top: 2px;
-    font-size: 14px;
-    line-height: normal;
-    color: var(--message-in-subtle-color);
+  margin-top: 2px;
+  font-size: 14px;
+  line-height: normal;
+  color: var(--message-in-subtle-color);
 }
 
 .message-out .contact-phone {
-    color: var(--message-out-subtle-color);
+  color: var(--message-out-subtle-color);
 }
 
 .contact-content {
-    flex-grow: 1;
-    flex-shrink: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
 }

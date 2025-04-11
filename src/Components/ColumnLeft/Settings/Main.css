@@ -6,17 +6,17 @@
  */
 
 .settings-main-content {
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .settings-main-footer {
-    color: var(--dialog-subtle-color);
-    font-size: 12px;
-    line-height: normal;
-    flex: 1 1 auto;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+  color: var(--dialog-subtle-color);
+  font-size: 12px;
+  line-height: normal;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }

@@ -6,9 +6,9 @@
  */
 
 .stub-message {
-    width: 300px;
-    /*min-height: 150px;*/
-    margin: 5px;
-    overflow: hidden;
-    background: #6ac9cc;
+  width: 300px;
+  /*min-height: 150px;*/
+  margin: 5px;
+  overflow: hidden;
+  background: #6ac9cc;
 }

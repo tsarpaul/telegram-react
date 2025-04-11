@@ -6,9 +6,9 @@
  */
 
 .footer-wrapper {
-    text-align: center;
-    color: var(--dialog-subtle-color);
-    font-size: 12px;
-    line-height: normal;
-    padding: 8px;
+  text-align: center;
+  color: var(--dialog-subtle-color);
+  font-size: 12px;
+  line-height: normal;
+  padding: 8px;
 }

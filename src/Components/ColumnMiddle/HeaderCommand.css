@@ -6,19 +6,19 @@
  */
 
 .header-command {
-    height: 60px;
-    padding: 0 7px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    overflow: hidden;
+  height: 60px;
+  padding: 0 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
 }
 
 .header-command-button {
-    margin: 0 7px;
+  margin: 0 7px;
 }
 
 .header-command-space {
-    flex-grow: 1;
-    flex-shrink: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
