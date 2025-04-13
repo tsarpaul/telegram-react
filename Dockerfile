@@ -1,11 +1,14 @@
-FROM node:14 AS build
+FROM node:18-slim AS build
 
 WORKDIR /app/
 
+# Set NODE_OPTIONS to allow legacy OpenSSL provider
+ENV NODE_OPTIONS=--openssl-legacy-provider
+
 # Copy over package.json and package-lock.json and install dependencies first,
 # so that we don't need to re-download dependencies if they have not been modified.
-COPY package.json package-lock.json ./
-RUN npm ci
+COPY package.json ./
+RUN npm install --legacy-peer-deps
 
 COPY . .
 RUN cp -v node_modules/tdweb/dist/* public/
